@@ -114,6 +114,13 @@ nav {
         -o-transition: background-color 0.5s linear;
         transition: background-color 0.5s linear;
 }
+```
+
+
+And then copy the CSS for the media query. I have it set to any screen width 850px or less.
+You can change the max width to be less or more depending on your preferences. 
+
+```css
 
 /********************************************************
 Media Query for Screens and Devices 850px or less
