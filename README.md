@@ -14,9 +14,6 @@ Here's how you can get started:
 
 Step 1: Copy in the HTML
 
-<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
-<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-
 ```html
   <nav>
           <ul class="transition">
@@ -36,7 +33,7 @@ around in your HTML and CSS with only a little effort to get it to work.
 
 Step 2: Copy this CSS in to your style sheet
 
-<pre><code>
+```css
 /*********************
 Initial Styles
 *********************/
@@ -167,4 +164,4 @@ Media Query for Screens and Devices 850px or less
                 border-top: none;
         }        
 }
-</code></pre>
+```
