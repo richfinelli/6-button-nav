@@ -17,7 +17,7 @@ Step 1: Copy in the HTML
 <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 
-<pre><code>
+```html
   <nav>
           <ul class="transition">
                   <a href="#"><li class="nav column1 first">Nav 1</li></a>
@@ -28,7 +28,7 @@ Step 1: Copy in the HTML
                   <a href="#"><li class="nav column3">Nav 6</li></a>                
           </ul>
   </nav>
-</code></pre>
+```
 
 Note on the placement of anchor tags: The HTML is a little unconventional in that the anchor tags are wrapped around the list items, which makes them 
 direct decendents of the unordered list. I like doing it this way however. If you don't of course you can shift things
