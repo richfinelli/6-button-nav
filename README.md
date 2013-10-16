@@ -26,9 +26,12 @@ Step 1: Copy in the HTML
           </ul>
   </nav>
 </code>
+
 Note on the placement of anchor tags: The HTML is a little unconventional in that the anchor tags are wrapped around the list items, which makes them 
 direct decendents of the unordered list. I like doing it this way however. If you don't of course you can shift things
 around in your HTML and CSS with only a little effort to get it to work. 
 
 Step 2: Copy this CSS in to your style sheet
+
+
 
