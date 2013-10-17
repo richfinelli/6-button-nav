@@ -35,17 +35,11 @@ Step 2: Copy this CSS in to your style sheet
 
 ```css
 /*********************
-Initial Styles
+Navigation Styles
 *********************/
-
 body {
         margin: 0;
 }
-
-
-/*********************
-Navigation Styles
-*********************/
 
 nav ul, nav li {
         margin: 0;
