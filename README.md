@@ -38,46 +38,31 @@ Step 2: Copy this CSS in to your style sheet
 Initial Styles
 *********************/
 
-html, body, ul, li {
-        margin: 0;
-        padding: 0;
-        vertical-align: baseline;
-}
 body {
-        background-color: #2e363d;
-        font-size: 100%;
-        line-height: 1;
+        margin: 0;
 }
-ul {
-        list-style: none;
-}
-h1 {
-        font-family: 'Marcellus SC', serif;
-        font-size: 4em;
-        text-align: center;
-        margin-top: 50px;
-        color: #3E62D6;
-}
-p {
-        font-family: 'Marcellus SC', serif;
-        font-size: 1.4em;
-        text-align: center;
-        margin: 25px auto 0 auto;
-        color: #fff;
-        max-width: 75%;
-}
+
+
 /*********************
 Navigation Styles
 *********************/
+
+nav ul, nav li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
 nav {
         display: block;
         width: 66.666666666666666666666666666667%;
         height: 60px;
         margin: 0 auto;
+        min-width: 850px;
 }
 .nav {
         height: 30px; 
-        width: 15.625%; 
+        width: 15.625%;
+        min-width: 120px;
         margin: 0px 0px 0px 01.25%;
         float: left;
         background-color: #e5e5e5;
@@ -91,16 +76,13 @@ nav {
         color: #2e363d;
         text-decoration: none;
         font-size: 1em; 
-        font-family: 'Marcellus SC', serif;
 }
 
 .nav.first {
         margin-left: 0px;
 }
-
 .nav:hover {
         text-decoration: none;
-        border-bottom: none;
         background-color: #ccc;
         border-top: 3px solid #3E62D6;
 }
@@ -116,7 +98,7 @@ nav {
 }
 ```
 
-
+Step 3: 
 And then copy the CSS for the media query. I have it set to any screen width 850px or less.
 You can change the max width to be less or more depending on your preferences. 
 
@@ -131,28 +113,24 @@ Media Query for Screens and Devices 850px or less
                 width: 100%;
                 height: 82px;
                 margin: 0px;
+                min-width: 250px;
         }
         .nav {
                 height: 30px; 
                 margin: 0px; 
                 width: 33.125%;
+                min-width: 50px;
                 float: none;
                 border-bottom: none;
                 -webkit-border-radius: 0px; 
                 -moz-border-radius: 0px; 
                 -o-border-radius: 0px; 
                 border-radius: 0px; 
-                text-align: center;
-                padding-top: 8px;
                 display: block;
+                font-size: 1.1em;
         }
 
-        .column1 {
-                float: left;
-                margin-right: 1px;
-                margin-bottom: 1px;
-        }
-        .column2 {
+        .column1, .column2 {
                 float: left;
                 margin-right: 1px;
                 margin-bottom: 1px;
@@ -161,11 +139,6 @@ Media Query for Screens and Devices 850px or less
                 float: left;
                 margin-bottom: 1px;
                 margin-right: 0px;
-        }
-
-        .nav {
-                font-size: 1.1em;
-                margin-left: 0px;
         }
         .nav:hover {
                 border-top: none;
